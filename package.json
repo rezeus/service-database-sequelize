@@ -1,0 +1,43 @@
+{
+  "name": "@rezeus/service-database-sequelize",
+  "version": "1.0.0-alpha.1",
+  "description": "Service for RDBMS connection via Sequelize.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ozan Müyesseroğlu <ozanmuyes@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rezeus/service-database-sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rezeus/service-database-sequelize/issues"
+  },
+  "homepage": "https://github.com/rezeus/service-database-sequelize#readme",
+  "dependencies": {
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {
+    "@rezeus/kernel": "^1.0.0-beta.1",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0",
+    "mocha": "^5.2.0",
+    "sqlite3": "^4.0.4"
+  },
+  "engines": {
+    "node": "^8.12.0"
+  }
+}
